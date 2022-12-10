@@ -1,6 +1,8 @@
+import { cx } from '@emotion/css';
 import { FC } from 'react';
 import { Section as SongSection } from 'songbook-chordpro';
 import Line from '../Line';
+import { useTheme } from '../Theme';
 import { styles } from './Section.styles';
 
 export interface SectionProps {
@@ -8,10 +10,13 @@ export interface SectionProps {
 }
 
 const Section: FC<SectionProps> = ({ section }) => {
+  const { theme } = useTheme();
   return (
-    <div className={styles.Section}>
+    <div className={cx(styles.Section, theme.sectionClass)}>
       {!!section.title && (
-        <strong className={styles.Title}>{section.title}</strong>
+        <strong className={cx(styles.Title, theme.sectionTitleClass)}>
+          {section.title}
+        </strong>
       )}
       <div>
         {section.lines.map((line, idx) => (

@@ -18,3 +18,5 @@ export { default as Section } from './Section';
 
 export * from './SongView';
 export { default as SongView } from './SongView';
+
+export * from './types';

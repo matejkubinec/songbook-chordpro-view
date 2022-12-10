@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import parseSong from 'songbook-chordpro';
-import { SongView } from './lib';
+import SongView from './SongView';
 
 const CONTENT = `
 {artist: Chinaski}
