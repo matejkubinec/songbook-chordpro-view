@@ -1256,10 +1256,10 @@ semver@~7.3.0:
   dependencies:
     lru-cache "^6.0.0"
 
-songbook-chordpro@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/songbook-chordpro/-/songbook-chordpro-0.0.4.tgz#a4bb5ebe0e259452e524e7648f543e47455bcf5d"
-  integrity sha512-VczApuAbicWihJoYt0Y73dFH25PiGgdnLX4LjGM91SPsJYCatyWVIZ1A2rdfpKDhk2/qS16znq6dmtuvltHKVQ==
+songbook-chordpro@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/songbook-chordpro/-/songbook-chordpro-0.0.5.tgz#221e7e052be3340b5407bf444df1f5e413e136f8"
+  integrity sha512-DNonOSRs6RXSZYcIJvpdl4FW98GGp26Bi2aW0mRaSsuZWdJMc4T+Xg69KLdtGBSE5XOn95oDkkfkTkcoZbn5GA==
   dependencies:
     typescript "^4.9.4"
 
